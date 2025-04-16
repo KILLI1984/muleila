@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MULEILA CLINTON | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans dark:bg-gray-900 dark:text-gray-100">
+<!-- Floating Dark Mode Toggle -->
+<button id="darkToggle" class="fixed top-0 right-8 z-50 bg-gray-300 dark:bg-gray-700 text-sm p-2 rounded-full shadow-md">
+  <span id="toggleIcon">🌙</span>
+</button>
+<!-- Mobile Nav -->
+<header class="bg-white dark:bg-gray-800 shadow p-6 flex justify-between items-center">
+  <h1 class="text-2xl font-bold">CLINTON MULELA</h1>
+  <div class="md:hidden">
+    <button id="menuToggle" class="text-gray-600 dark:text-gray-100 focus:outline-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+  <nav id="navMenu" class="hidden md:flex space-x-4">
+    <a href="#projects" class="hover:underline">Projects</a>
+    <a href="#skills" class="hover:underline">Skills</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+  </nav>
+</header>
+<!-- Mobile Menu Items -->
+<div id="mobileLinks" class="md:hidden hidden bg-white dark:bg-gray-800 px-6 py-4 space-y-2">
+  <a href="#projects" class="block hover:underline">Projects</a>
+  <a href="#skills" class="block hover:underline">Skills</a>
+  <a href="#contact" class="block hover:underline">Contact</a>
+</div>
+<!-- About Section -->
+<section class="p-8 text-center" data-aos="fade-up">
+  <img src="images/clinton.jpg" alt="Clinton Mulela" class="w-32 h-32 mx-auto rounded-full shadow-md mb-4 object-cover" />
+  <h2 class="text-3xl font-semibold mb-4">Hi, I’m Clinton Mulela</h2>
+  <p class="text-lg max-w-2xl mx-auto">I’m a Business Information Technology graduate from ZETECH University, with a
+    strong passion for designing, developing, and maintaining systems that solve real-world problems. I thrive on turning ideas into
+     practical digital solutions that enhance efficiency and create impact.
+    Take a look at some of the projects I’ve worked on below!
+
+!</p>
+  <a href="Clinton_Mulela_CV.pdf" download class="inline-block mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+    Download CV
+  </a>
+</section>
+<!-- Projects Section -->
+<!-- Project 1 -->
+<section id="projects" class="p-8 bg-white dark:bg-gray-800" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-6 text-center">Projects</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow">
+      <h3 class="text-xl font-bold">Hiring Inventory Management System</h3>
+      <p class="mt-2">A comprehensive system built to manage event rentals like tents, chairs, sofas, and services, streamlining bookings and inventory.</p>
+      <p class="mt-2 text-sm">Tech Stack: HTML, CSS, C#, SQL, Bootstrap</p>
+      <img src="images/killi.jpeg" alt="Hiring Inventory Management System" class="rounded mb-4 w-100 h-50 object-cover" />
+    </div>
+    <!-- Project 2 -->
+    <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow">
+      <h3 class="text-xl font-bold">Stock Management System</h3>
+      <p class="mt-2">The Stock Management System is a web-based application designed to help businesses effectively monitor, manage, and control their
+         inventory. This system streamlines stock tracking, reduces manual errors, and improves decision-making by providing real-time
+         insights into stock levels, movements, and trends.</p>
+      <p class="mt-2 text-sm">Tech Stack: React.js / Vue.js / Node.js / Django / PHP / ASP.NET / MySQL / MongoDB</p>
+      <img src="images/killi3.jpeg" alt="Hiring Inventory Management System" class="rounded mb-4 w-100 h-50 object-cover" />
+    </div>
+    <!-- Project 3 -->
+    <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow">
+      <h3 class="text-xl font-bold">Art Gallery Management System</h3>
+      <p class="mt-2">The Art Gallery System is a digital platform designed to showcase and manage art collections in an engaging and
+         user-friendly environment. This system allows curators to upload and organize artworks, while visitors can explore, appreciate, and
+          purchase pieces directly through the platform.</p>
+      <p class="mt-2 text-sm">Tech Stack: React.js / Vue.js / Node.js / Django / PHP / ASP.NET / MySQL / MongoDB</p>
+        <img src="images/killi2.PNG" alt="Hiring Inventory Management System" class="rounded mb-4 w-100 h-50 object-cover" />
+    </div>
+  </div>
+</section>
+<!-- Tools & Technologies -->
+<section class="p-8 bg-gray-100 dark:bg-gray-900" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-6 text-center">Tools & Technologies</h2>
+  <ul class="flex flex-wrap justify-center gap-4 text-sm">
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Visual Studio</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">VS Code</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">XAMPP</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">GitHub</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Postman</li>
+  </ul>
+</section>
+<!-- Skills Section -->
+<section id="skills" class="p-8" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-6 text-center">Skills</h2>
+  <ul class="flex flex-wrap justify-center gap-4 text-sm">
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">C Programming</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">PHP</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">MySQL</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">HTML/CSS</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">JavaScript</li>
+    <li class="bg-white dark:bg-gray-700 px-4 py-2 rounded shadow">Git</li>
+  </ul>
+</section>
+<!-- Certifications Section -->
+<section class="p-8 bg-white dark:bg-gray-800" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-6 text-center">Certifications</h2>
+  <ul class="space-y-3 text-center">
+    <li>Meta Front-End Developer – Coursera</li>
+    <li>Google IT Support – Coursera</li>
+    <li>Responsive Web Design – freeCodeCamp</li>
+  </ul>
+</section>
+<!-- Testimonials -->
+<section class="p-8 bg-gray-50 dark:bg-gray-700" data-aos="zoom-in">
+  <h2 class="text-2xl font-semibold mb-6 text-center">Testimonials</h2>
+  <div class="max-w-xl mx-auto text-center">
+    <p class="italic text-lg">"Clinton is a reliable and creative developer. His work on our systems was efficient and impactful."</p>
+    <p class="mt-2 font-bold">– Jane Doe, Event Manager</p>
+  </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="p-8 bg-white dark:bg-gray-800 text-center" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
+  <form id="contactForm" action="https://formspree.io/f/mjkydywv" method="POST" class="max-w-md mx-auto space-y-4">
+    <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 border rounded dark:bg-gray-900" required>
+    <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded dark:bg-gray-900" required>
+    <textarea name="message" placeholder="Your Message" rows="4" class="w-full px-4 py-2 border rounded dark:bg-gray-900" required></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send</button>
+  </form>
+  <div id="successMessage" class="hidden mt-4 text-green-600 font-semibold">
+    Your message has been sent successfully!
+  </div>
+  <p class="mt-6">Email: <a href="mailto:muleilaclinton@gmaim.com" class="text-blue-500">muleilaclinton@gmaim.com</a></p>
+  <p>Phone no: <a class="text-blue-500" target="_blank">  0708810404</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/muleila-clinton-304779331" class="text-blue-500" target="_blank">Muleila Clinton</a></p>
+</section><footer class="text-center text-sm text-gray-500 dark:text-gray-400 p-4">
+  &copy; 2025 Clinton Mulela. All rights reserved.
+</footer><script>
+  document.addEventListener('DOMContentLoaded', () => {
+    AOS.init({ duration: 800, once: true });
+
+    const toggle = document.getElementById('darkToggle');
+    const root = document.documentElement;
+    const icon = document.getElementById('toggleIcon');
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+    const mobileLinks = document.getElementById('mobileLinks');
+
+    if (localStorage.getItem('theme') === 'dark') {
+      root.classList.add('dark');
+      icon.textContent = '☀️';
+    }
+
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('dark');
+      const isDark = root.classList.contains('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      icon.textContent = isDark ? '☀️' : '🌙';
+    });
+
+    menuToggle.addEventListener('click', () => {
+      mobileLinks.classList.toggle('hidden');
+    });
+
+    const form = document.getElementById('contactForm');
+    const successMsg = document.getElementById('successMessage');
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        form.reset();
+        successMsg.classList.remove('hidden');
+        setTimeout(() => successMsg.classList.add('hidden'), 5000);
+      } else {
+        alert('Oops! Something went wrong.');
+      }
+    });
+  });
+</script></body>
+</html>
